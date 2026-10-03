@@ -1,0 +1,6 @@
+# the engine lays these down on every load
+.claude-plugin/types/
+# real captured profiles contain project data: never commit them
+hooks/fixtures/real.ts
+node_modules/
+tsconfig.json

@@ -1,0 +1,13 @@
+{
+  "name": "claude-spx",
+  "owner": {
+    "name": "Oleksandr Davyskyba"
+  },
+  "plugins": [
+    {
+      "name": "spx-chart",
+      "source": "./",
+      "description": "Interactive SPX chart/icicle chart pane for Claude Code: heat-coloured, hover details, click to copy, double-click to zoom. Requires the php-spx-mcp server (github.com/NoiseByNorthwest/php-spx-mcp)."
+    }
+  ]
+}

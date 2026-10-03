@@ -1,0 +1,26 @@
+{
+  "name": "spx-chart",
+  "version": "0.2.0",
+  "description": "Interactive SPX chart/icicle chart pane for Claude Code: heat-coloured, hover details, click to copy, double-click to zoom. Requires the php-spx-mcp server (github.com/NoiseByNorthwest/php-spx-mcp).",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "mcpServer": {
+      "type": "string",
+      "title": "SPX MCP server",
+      "description": "Name of the SPX MCP server as /mcp lists it",
+      "default": "spx-mcp"
+    }
+  },
+  "author": {
+    "name": "Oleksandr Davyskyba"
+  },
+  "repository": "https://github.com/zviryatko/claude-spx",
+  "keywords": [
+    "spx",
+    "php",
+    "profiling",
+    "flamegraph",
+    "drupal",
+    "mod"
+  ]
+}
